@@ -1,0 +1,82 @@
+===========================================================
+  SITE — SOLUÇÕES DEPENDÊNCIA QUÍMICA (Vanessa dos Santos)
+  GUIA DE PUBLICAÇÃO NO GITHUB PAGES
+===========================================================
+
+## ESTRUTURA DESTA PASTA
+
+  solucoes-dependencia-quimica\
+  │
+  ├── index.html          → O SITE COMPLETO (uma página só)
+  ├── imagens\            → Coloque aqui as 2 imagens que faltam:
+  │     ├── logo.png      → logotipo do site (qualquer tamanho, preferível PNG com fundo transparente ou branco)
+  │     └── doutor.jpg    → FOTO DA VANESSA (ou foto de atendimento)
+  │                          Se colocar outro nome/ formato, edite no index.html
+  │                          nas linhas:  <img src="imagens/logo.png" ...>  e
+  │                          <img src="imagens/doutor.jpg" ...>
+  │                          → IMPORTANTE: os arquivos PRECISAM ter esses
+  │                            nomes exatos para o site reconhecer.
+  │                          → SEM as imagens o site não quebra: aparecem
+  │                            blocos de texto no lugar, como proteção.
+  └── LEIA-ME.txt         → Este guia
+
+Obs: já existe uma pasta oculta .git com o 1º commit pronto
+(só do index.html). Depois de colocar as imagens, rode
+"git add ." para incluí-las no próximo envio.
+
+
+## COMO PUBLICAR DE GRAÇA NO GITHUB PAGES
+
+1. Entre no github.com com sua conta e abra  https://github.com/new
+
+2. Crie o repositório:
+     - Repository name:  solucoes-dependencia-quimica
+     - Marque: Public
+     - NÃO marque "Add a README file" nem .gitignore (deixa tudo vazio!)
+     - Clique em  Create repository
+
+3(abertura não costuma pedir nada). No Prompt de Comando (cmd), cole:
+
+     cd %USERPROFILE%\Documents\solucoes-dependencia-quimica
+     git remote add origin https://github.com/SEU-USUARIO/solucoes-dependencia-quimica.git
+     git push -u origin main
+
+   → troque SEU-USUARIO pelo seu nome de usuário no GitHub
+   → aparecerá uma janelinha do GitHub pra entrar e autorizar: autorize
+
+4. Depois do push concluído, no GitHub:
+     Repositório → Settings → Pages
+       Source/Branch:  main   |   pasta:  / (root)
+     → Save
+
+5. Espere 1–2 minutos. O site fica aqui:
+     https://SEU-USUARIO.github.io/solucoes-dependencia-quimica/
+
+## ATUALIZAÇÕES FUTURAS (mudar texto, foto etc.)
+
+Depois de editar qualquer arquivo, no cmd:
+
+     cd %USERPROFILE%\Documents\solucoes-dependencia-quimica
+     git add .
+     git commit -m "Atualizacao"
+     git push
+
+
+## O QUE ESTÁ PRONTO / O QUE AINDA PODE FALTAR
+
+  ✅ Todos os textos do site antigo recuperados
+  ✅ Contato: WhatsApp + ligação (13) 99112-3417 em tudo
+  ✅ E-mail:  vsl13021986@gmail.com (também no rodapé)
+  ✅ Formulário de contato → envia direto pro WhatsApp (sem back-end)
+  ✅ Site funciona no celular (responsivo)
+  ✅ Nenhuma referência ao Raphael Rojo
+
+  ⚠️ Para deixar 100%, quando possível:
+     1. Texto de apresentação da Vanessa (2–3 parágrafos, "Quem Somos")
+     2. Foto da Vanessa  →  imagens\doutor.jpg
+     3. Logo original    →  imagens\logo.png
+     4. Confirmar os números: +900 pacientes / +20 clínicas
+     5. Instagram/Facebook (se quiser, os ícones podem ser adicionados)
+     6. Endereço/região de atendimento, se quiser incluir mapa
+
+Dúvidas: é só pedir ao seu filho mosqueteiro favorito 🤖
